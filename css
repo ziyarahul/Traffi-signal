@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.map-container {
+    border: 10px solid goldenrod;
+    background-color: #1abc9c;
+    width: 900px;
+}
+
+.left-and-right_top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.left-top-box {
+    width: 180px;
+    height: 200px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom-right-radius: 130px;
+    border-top: transparent;
+    border-left: transparent;
+
+}
+
+.right-top-box {
+    width: 180px;
+    height: 200px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-top: transparent;
+    border-right: transparent;
+}
+
+.Y {
+    width: 0;
+    height: 0;
+    border-bottom: 100px solid tan;
+    border-left: 100px solid transparent;
+    margin-left: 80px;
+
+}
+
+.road_1_img {
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://image.freepik.com/free-photo/black-road-texture_1160-806.jpg");
+    transform: rotate(140deg);
+    transform-origin: 35% 70%;
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+
+}
+
+.road_1_arrow {
+    color: white;
+    transform: rotate(45deg);
+    transform-origin: 58% 60%;
+
+}
+
+.lights-container {
+    background-color: #2c3e50;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    width: 50px;
+}
+
+.circle {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+
+.circle::after {
+    border-right: 4px solid rgba(255, 255, 255, 0.6);
+    border-radius: 100%;
+    content: ' ';
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+}
+
+.road_2_img {
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://image.freepik.com/free-photo/black-road-texture_1160-806.jpg");
+    width: 200px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 5px;
+    border-top-left-radius: 15px;
+    color: white;
+
+}
+
+.line {
+    color: white;
+}
+
+.road-7_and_8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.bottom_roads-456 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.road_bottom_img {
+    display: flex;
+    flex-direction: row;
+    background-image: url("https://image.freepik.com/free-photo/black-road-texture_1160-806.jpg");
+    width: 40px;
+    height: 150px;
+    margin-top: 5px;
+    border-top-left-radius: 15px;
+    color: white;
+
+}
+
+.vline {
+    border-left: 0px;
+    height: 200px;
+    color: white;
+    border-style: solid;
+    margin: 15px;
+    margin-top: 90px;
+}
+
+.bottom-left-box {
+    width: 220px;
+    height: 170px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: transparent;
+    border-left: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 120px;
+
+}
+
+.bottom-right-box {
+    width: 200px;
+    height: 170px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-bottom: transparent;
+    border-right: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 120px;
+
+}
+
+.circle.green {
+    background-color: #2ecc71;
+    box-shadow: 0 0 20px 5px #2ecc71;
+}
+
+.circle.red {
+    background-color: #c0392b;
+    box-shadow: 0 0 20px 5px #c0392b;
+}
