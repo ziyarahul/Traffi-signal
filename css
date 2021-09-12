@@ -1,9 +1,41 @@
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
 
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://image.freepik.com/free-vector/two-men-having-car-accident-isolated-flat-vector-illustration-cartoon-people-looking-automobile-damage_74855-8655.jpg");
+    height: 700px;
+    background-size: cover;
+    border: 10px solid goldenrod;
+    padding-bottom: 200px;
+
+}
+
+.heading {
+    font-size: 72px;
+    color: Navy;
+    font-family: Times New Roman;
+}
+
+.city {
+    font-size: 52px;
+    color: OrangeRed;
+    font-family: Roboto;
+}
+
 .map-container {
     border: 10px solid goldenrod;
     background-color: #1abc9c;
-    width: 900px;
+}
+
+.select {
+    width: 200px;
+    height: 55px;
+    text-align: center;
+    color: black;
+    font-size: 32px;
 }
 
 .left-and-right_top {
@@ -78,6 +110,14 @@
 }
 
 .circle {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 100%;
+    position: relative;
+    height: 20px;
+    width: 20px;
+}
+
+.circle2 {
     background-color: rgba(0, 0, 0, 0.3);
     border-radius: 100%;
     position: relative;
@@ -182,4 +222,10 @@
 .circle.red {
     background-color: #c0392b;
     box-shadow: 0 0 20px 5px #c0392b;
+}
+
+.button {
+    width: 120px;
+    height: 40px;
+
 }
